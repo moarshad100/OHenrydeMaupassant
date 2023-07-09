@@ -14,7 +14,7 @@
 
 }
 
-.check_song{
+.check{
 	display: flex;
 
 }
@@ -22,4 +22,12 @@
 .getbtn{
 	width: 700px;
 }
+
+#main{
+	max-width: 800px;
+	max-height: 800px;
+	margin-left: 40px;
+
+}
+
 

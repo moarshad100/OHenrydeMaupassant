@@ -27,11 +27,16 @@ fetch(requestUrl)
       $(addStories).empty();
       var e = document.getElementById('Stories');
       var createPara = document.createElement('p');
+      var createTitle = document.createElement('H1');
       console.log(e.value);
       for(i=0;i<data.length;i++){
       if(e.value === data[i].title){
+
         createPara.textContent = data[i].story;
+        createTitle.textContent = data[i].title;
+        addStories.appendChild(createTitle);
         addStories.appendChild(createPara);
+
 
       }
     }
